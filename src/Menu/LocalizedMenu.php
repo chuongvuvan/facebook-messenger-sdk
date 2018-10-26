@@ -30,9 +30,9 @@ class LocalizedMenu implements LocalizedMenuInterface
     /**
      * LocalizedMenu constructor.
      *
-     * @param      $locale
-     * @param      $composer_input_disabled
-     * @param null $menuItems
+     * @param null|string|bool $locale
+     * @param null|string|bool $composer_input_disabled
+     * @param null|array       $menuItems
      */
     public function __construct($locale, $composer_input_disabled, $menuItems = NULL)
     {

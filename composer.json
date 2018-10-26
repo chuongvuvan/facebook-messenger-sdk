@@ -4,9 +4,11 @@
     "homepage": "https://github.com/nguyenanhung/facebook-messenger-sdk",
     "type": "library",
     "keywords": [
-        "debug",
-        "logger",
-        "log"
+        "facebook",
+        "messenger",
+        "msg",
+        "sdk",
+        "chat bot"
     ],
     "license": "GPL-3.0",
     "authors": [

@@ -87,13 +87,13 @@ class MenuItem implements MenuItemInterface
     /**
      * MenuItem constructor.
      *
-     * @param        $type
-     * @param        $title
-     * @param        $data
-     * @param string $webview_height_ratio
-     * @param bool   $messenger_extensions
-     * @param string $fallback_url
-     * @param null   $webview_share_button
+     * @param string|null|array $type
+     * @param string|null|array $title
+     * @param string|null|array $data
+     * @param string|null|array $webview_height_ratio
+     * @param bool|null|array   $messenger_extensions
+     * @param string|null|array $fallback_url
+     * @param null|null|array   $webview_share_button
      */
     public function __construct(
         $type, $title, $data, $webview_height_ratio = '', $messenger_extensions = FALSE, $fallback_url = '',
