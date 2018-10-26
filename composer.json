@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nguyenanhung\\FacebookMessenger\\SDK": "src/"
+            "nguyenanhung\\FacebookMessenger\\SDK\\": "src/"
         }
     },
     "autoload-dev": {
