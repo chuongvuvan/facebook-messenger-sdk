@@ -459,7 +459,7 @@ class FacebookMessengerBotApp implements FacebookMessengerBotAppInterface
      *
      * @see https://developers.facebook.com/docs/messenger-platform/messenger-profile/persistent-menu
      *
-     * @param object $localizedMenu
+     * @param object|array $localizedMenu
      *
      * @return array
      */
